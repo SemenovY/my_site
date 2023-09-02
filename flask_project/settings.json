@@ -1,0 +1,17 @@
+{"site_url":"http://localhost:8000",
+"site_title": "Semenov Yuriy: Python разработчик и автор контента",
+"description": "Семёнов Юрий - портфолио, резюме и блог Python разработчика",
+"keywords": "Веб-разработка на Python, бэкенд на Django и Flask",
+"name": "Семёнов Юрий",
+"tag1":"Разработчик и автор",
+"tag2":"контента",
+"sect1":"Главная",
+"sect2":"Резюме",
+"sect3":"Портфолио",
+"sect4":"Блог",
+"sect5":"Контакты",
+"telegram":"https://t.me/SemenovY357",
+"linkedin":"https://www.linkedin.com/in/yuriy-semenov/",
+"email":"mailto:semenoffy@mail.ru",
+"city":"Москва"
+}

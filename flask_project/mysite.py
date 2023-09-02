@@ -3,7 +3,7 @@
 – сначала импортируем нужные модули, затем определим основные параметры,
 после пропишем маршруты к шаблонам и запустим сервер.
 """
-import sys
+import sys, json
 from flask import Flask, render_template
 from flask_flatpages import FlatPages, pygments_style_defs
 from flask_frozen import Freezer
@@ -24,7 +24,10 @@ app.config.from_object(__name__)
 def index():
     posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
     posts.sort(key=lambda item: item['date'], reverse=True)
-    return render_template('index.html', posts=posts, bigheader=True)
+    with open('settings.json', encoding='utf8') as config:
+        data = config.read()
+        settings = json.loads(data)
+    return render_template('index.html', posts=posts, bigheader=True, **settings)
 
 
 @app.route('/posts/<name>/')
