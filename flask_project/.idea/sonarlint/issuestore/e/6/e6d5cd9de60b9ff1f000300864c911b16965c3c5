@@ -1,0 +1,9 @@
+
+pjavascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.(ˆè²Ô
+ejavascript:S1848Œ"HEither remove this useless object instantiation of "Waypoint" or use it.(—…ÄÍ
+hjavascript:S1848›"FEither remove this useless object instantiation of "Swiper" or use it.(£¬…Íúÿÿÿÿ
+djavascript:S1481Ô"BRemove the declaration of the unused 'portfolioLightbox' variable.(æöŒŽüÿÿÿÿ
+ajavascript:S1854Ô"?Remove this useless assignment to variable "portfolioLightbox".(æöŒŽüÿÿÿÿ
+fjavascript:S1481Û"IRemove the declaration of the unused 'portfolioDetailsLightbox' variable.(¨¼Üõ
+cjavascript:S1854Û"FRemove this useless assignment to variable "portfolioDetailsLightbox".(¨¼Üõ
+cjavascript:S1848ä"FEither remove this useless object instantiation of "Swiper" or use it.(­Š˜ß
